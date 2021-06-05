@@ -11,11 +11,11 @@ PresetManager:
       m_ManagedTypeFallback: 
     second:
     - m_Preset: {fileID: 0}
-      m_Filter: default
+      m_Filter: Mushroom
       m_Disabled: 0
     - m_Preset: {fileID: 0}
       m_Filter: 
-      m_Disabled: 0
+      m_Disabled: 1
     - m_Preset: {fileID: 0}
       m_Filter: 
       m_Disabled: 0

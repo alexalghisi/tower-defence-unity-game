@@ -109,6 +109,5 @@ public class MushroomSpawner : MonoBehaviour {
 		gameEnded = true;
 		gameOverUI.SetActive (true);
 	}
-		
 }
 
