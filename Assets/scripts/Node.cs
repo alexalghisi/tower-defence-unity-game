@@ -28,7 +28,6 @@ public class Node : MonoBehaviour {
 			Debug.Log ("Can't build here!");
 		}
 
-		// Build the turret tower.
 		GameObject turretToBuild = buildManager.GetTurretToBuild();
 		turret = (GameObject)Instantiate (turretToBuild, transform.position + positionOffset, transform.rotation);
 	}
