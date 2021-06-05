@@ -5,11 +5,11 @@ using System.Collections;
 public class MushroomSpawner : MonoBehaviour {
 
 	public Transform enemyPrefab;
-	public float timeBetweenWaves = 5.5f;
+	public float timeBetweenWaves = 5.1f;
 	public Transform spawnPoint;
 
-	public int totalNumberOfEnemys = 20;
-	public int totalNumberOfLifes = 3;
+	public int totalNumberOfEnemys = 10;
+	public int totalNumberOfLifes = 4;
 
 	[Header("Game UI Fields")]
 
