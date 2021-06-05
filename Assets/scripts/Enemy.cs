@@ -22,8 +22,8 @@ public class Enemy : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		if (gameMaster.gameObject.GetComponent<MushroomSpawner> ().IsGameEnded () || 
-			gameMaster.gameObject.GetComponent<MushroomSpawner> ().IsGamePaused ()) 
+		if (gameMaster.gameObject.GetComponent<TowerSpawner> ().IsGameEnded () ||
+			gameMaster.gameObject.GetComponent<TowerSpawner> ().IsGamePaused ())
 		{
 			return;
 		}
@@ -36,7 +36,7 @@ public class Enemy : MonoBehaviour {
 		}
 			
 		if (life <= 0) {
-			gameMaster.gameObject.GetComponent<MushroomSpawner> ().DecrementNumberOfEnemies ();
+			gameMaster.gameObject.GetComponent<TowerSpawner> ().DecrementNumberOfEnemies ();
 			Destroy (gameObject);
 		}
 	}
@@ -45,8 +45,8 @@ public class Enemy : MonoBehaviour {
 	{
 		if (waveportIndex >= Wavepoints.points.Length - 1)
 		{
-			gameMaster.gameObject.GetComponent<MushroomSpawner> ().DecrementNumberOfEnemies ();
-			gameMaster.gameObject.GetComponent<MushroomSpawner> ().DecrementNumberOfLifes ();
+			gameMaster.gameObject.GetComponent<TowerSpawner> ().DecrementNumberOfEnemies ();
+			gameMaster.gameObject.GetComponent<TowerSpawner> ().DecrementNumberOfLifes ();
 			Destroy (gameObject);
 			return;
 		}

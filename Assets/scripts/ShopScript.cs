@@ -8,7 +8,6 @@ public class ShopScript : MonoBehaviour {
 	public GameObject secondTurretType;
 	public int avaliableAmount = 1000;
 	public int type1TurretPrice = 200;
-	public int type2TurretPrice = 150;
 	public Text availableAmountText;
 
 	public void PurchaseType1Turret()
@@ -20,18 +19,6 @@ public class ShopScript : MonoBehaviour {
 		}
 		avaliableAmount -= type1TurretPrice;
 		buildManager.SetTurretToBuild (firstTurretType);
-		availableAmountText.text = avaliableAmount + "$";
-	}
-
-	public void PurchaseType2Turret()
-	{
-		if (avaliableAmount < type2TurretPrice) 
-		{
-			buildManager.SetTurretToBuild (null);
-			return;
-		}
-		avaliableAmount -= type2TurretPrice;
-		buildManager.SetTurretToBuild (secondTurretType);
 		availableAmountText.text = avaliableAmount + "$";
 	}
 
