@@ -23,18 +23,6 @@ public class ShopScript : MonoBehaviour {
 		availableAmountText.text = avaliableAmount + "$";
 	}
 
-	public void PurchaseType2Turret()
-	{
-		if (avaliableAmount < type2TurretPrice) 
-		{
-			buildManager.SetTurretToBuild (null);
-			return;
-		}
-		avaliableAmount -= type2TurretPrice;
-		buildManager.SetTurretToBuild (secondTurretType);
-		availableAmountText.text = avaliableAmount + "$";
-	}
-
 	void Start()
 	{
 		buildManager = BuildManager.instance;
