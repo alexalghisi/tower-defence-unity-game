@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/beta 2 avem pod.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
