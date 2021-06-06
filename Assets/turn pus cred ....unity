@@ -1922,8 +1922,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 539909091}
-  - component: {fileID: 539909090}
   - component: {fileID: 539909092}
+  - component: {fileID: 539909093}
   m_Layer: 0
   m_Name: GameMaster
   m_TagString: Untagged
@@ -1931,19 +1931,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &539909090
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 539909089}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8709af2d62eab2d45bbbf9e050e494b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  firstTurretPrefab: {fileID: 0}
 --- !u!4 &539909091
 Transform:
   m_ObjectHideFlags: 0
@@ -1970,8 +1957,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8709af2d62eab2d45bbbf9e050e494b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstTurretPrefab: {fileID: 1917077958728444, guid: 64375190e885d854d901d2f5aba9b838,
-    type: 3}
+  firstTurretPrefab: {fileID: 100000, guid: a267963d7602d0e46b67a1eadde5145a, type: 3}
+--- !u!114 &539909093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539909089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36df2d03c11504024bcd4cadfaed2e55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 1504911584}
+  timeBetweenWaves: 5.5
+  spawnPoint: {fileID: 621548373}
+  totalNumberOfEnemys: 20
+  totalNumberOfLifes: 4
+  waveCountdownText: {fileID: 1648476022}
+  enemyText: {fileID: 1749527455}
+  lifeNumberText: {fileID: 1274762973}
+  gameOverUI: {fileID: 637393580}
+  gamePausedUI: {fileID: 1508429267}
 --- !u!1001 &560109845
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2978,8 +2986,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firstTurretType: {fileID: 100000, guid: a267963d7602d0e46b67a1eadde5145a, type: 3}
   secondTurretType: {fileID: 100000, guid: a267963d7602d0e46b67a1eadde5145a, type: 3}
-  avaliableAmount: 1000
-  type1TurretPrice: 200
+  avaliableAmount: 1500
+  type1TurretPrice: 250
   availableAmountText: {fileID: 2093328363}
 --- !u!33 &743534852
 MeshFilter:
@@ -4356,8 +4364,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 539909093}
+        m_TargetAssemblyTypeName: MushroomSpawner, Assembly-CSharp
         m_MethodName: PauseGame
         m_Mode: 1
         m_Arguments:
@@ -8735,8 +8743,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 539909093}
+        m_TargetAssemblyTypeName: MushroomSpawner, Assembly-CSharp
         m_MethodName: PauseGame
         m_Mode: 1
         m_Arguments:
