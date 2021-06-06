@@ -24,7 +24,8 @@ public class BuildManager : MonoBehaviour {
 
 	public void SetTurretToBuild(GameObject turret)
 	{
-		turretToBuild = turret;
+		GameObject go = Instantiate (turret, transform.position, transform.rotation, turret.transform.parent);
+		go.transform.localScale -= new Vector3(0.5f,0.5f,0.5f);
+		turretToBuild = go;
 	}
-		
 }
