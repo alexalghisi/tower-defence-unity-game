@@ -236,3 +236,67 @@ Received Import Request.
 Start importing Assets/GruffysAnimatedButterfly/Textures/Butterfly2.png using Guid(76e06985c528f964daa98671dd60c071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6e0764bc63f2287f82424cb305a80b') in 0.391387 seconds
   Import took 0.394726 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004036 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.180 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.8 MB.
+System memory in use after: 173.9 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2384.
+Total: 4.664160 ms (FindLiveObjects: 0.180029 ms CreateObjectMapping: 0.074197 ms MarkObjects: 4.386063 ms  DeleteObjects: 0.023001 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1227.771978 seconds.
+  path: Assets/scripts/Bullet.cs
+  artifactKey: Guid(f7f7ff4121abe5c4283d675ef3aea87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Bullet.cs using Guid(f7f7ff4121abe5c4283d675ef3aea87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dae60d4abd610930adf110e1147d401') in 0.004595 seconds
+  Import took 0.008200 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003101 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.182 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.0 MB.
+System memory in use after: 174.1 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2387.
+Total: 4.741312 ms (FindLiveObjects: 0.158997 ms CreateObjectMapping: 0.058681 ms MarkObjects: 4.497099 ms  DeleteObjects: 0.025815 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.131287 seconds.
+  path: Assets/scripts/MushroomSpawner.cs
+  artifactKey: Guid(36df2d03c11504024bcd4cadfaed2e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/MushroomSpawner.cs using Guid(36df2d03c11504024bcd4cadfaed2e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5448662a8f4dd0baa8a2ad6f8637788') in 0.004109 seconds
+  Import took 0.006773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.351106 seconds.
+  path: Assets/scripts/Node.cs
+  artifactKey: Guid(37c6cc7161911e948a3b7caad48361c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Node.cs using Guid(37c6cc7161911e948a3b7caad48361c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccbf84b74bfd5f00bce0103b58bc7525') in 0.001427 seconds
+  Import took 0.005023 seconds .
+

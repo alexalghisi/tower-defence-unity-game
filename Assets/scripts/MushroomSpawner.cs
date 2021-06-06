@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
@@ -9,7 +9,7 @@ public class MushroomSpawner : MonoBehaviour {
 	public Transform spawnPoint;
 
 	public int totalNumberOfEnemys = 20;
-	public int totalNumberOfLifes = 3;
+	public int totalNumberOfLifes = 4;
 
 	[Header("Game UI Fields")]
 
