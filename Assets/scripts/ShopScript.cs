@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class ShopScript : MonoBehaviour {
@@ -6,8 +6,8 @@ public class ShopScript : MonoBehaviour {
 	BuildManager buildManager;
 	public GameObject firstTurretType;
 	public GameObject secondTurretType;
-	public int avaliableAmount = 1000;
-	public int type1TurretPrice = 200;
+	public int avaliableAmount = 1500;
+	public int type1TurretPrice = 250;
 	public Text availableAmountText;
 
 	public void PurchaseType1Turret()
