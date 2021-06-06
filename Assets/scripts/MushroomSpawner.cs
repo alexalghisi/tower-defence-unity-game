@@ -37,7 +37,7 @@ public class MushroomSpawner : MonoBehaviour {
 	{
 		numberOfLifes--;
 		lifeNumberText.text = numberOfLifes + "/" + totalNumberOfLifes;
-		if (numberOfLifes == 0) 
+		if (numberOfLifes == 0)
 		{
 			EndGame ();
 		}
@@ -59,7 +59,7 @@ public class MushroomSpawner : MonoBehaviour {
 		gamePausedUI.SetActive (gamePaused);
 	}
 
-	void Start () 
+	void Start ()
 	{
 		numberOfEnemysForLevel = totalNumberOfEnemys;
 		numberOfLifes = totalNumberOfLifes;
@@ -68,15 +68,14 @@ public class MushroomSpawner : MonoBehaviour {
 		gameOverUI.SetActive (false);
 		gamePausedUI.SetActive (false);
 	}
-		
+
 	void Update () {
-		if (IsGameEnded() || IsGamePaused()) 
+		if (IsGameEnded() || IsGamePaused())
 		{
 			return;
 		}
 
-		//create wave
-		if(countdown <= 0f && 
+		if(countdown <= 0f &&
 			waveIndex * waveIndex - waveIndex <= totalNumberOfEnemys * 2)
 		{
 			StartCoroutine (SpawnWave ());
@@ -90,7 +89,7 @@ public class MushroomSpawner : MonoBehaviour {
 	IEnumerator SpawnWave()
 	{
 		waveIndex++;
-		for (int i = 0; i < waveIndex; i++) 
+		for (int i = 0; i < waveIndex; i++)
 		{
 			SpawnEnemy ();
 			yield return new WaitForSeconds (0.5f);
@@ -110,4 +109,3 @@ public class MushroomSpawner : MonoBehaviour {
 		gameOverUI.SetActive (true);
 	}
 }
-
