@@ -12,476 +12,127 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56278
+59320
 Successfully changed project path to: /Users/alessandro/Documents/Sistemte Interactive/tower-defense-unity-game-master/RP Tower Defense Game
 /Users/alessandro/Documents/Sistemte Interactive/tower-defense-unity-game-master/RP Tower Defense Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 51.05 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 42.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path /Applications/2020.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/alessandro/Documents/Sistemte Interactive/tower-defense-unity-game-master/RP Tower Defense Game/Assets
 GfxDevice: creating device client; threaded=0
-2021-06-06 15:37:58.872 Unity[34180:6302044] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
-2021-06-06 15:37:58.872 Unity[34180:6302044] Metal devices available: 2
-2021-06-06 15:37:58.872 Unity[34180:6302044] 0: AMD Radeon Pro 555X (high power)
-2021-06-06 15:37:58.872 Unity[34180:6302044] 1: Intel(R) UHD Graphics 630 (low power)
-2021-06-06 15:37:58.874 Unity[34180:6302044] Using device AMD Radeon Pro 555X (high power)
+2021-06-06 17:22:48.054 Unity[85225:6515039] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
+2021-06-06 17:22:48.054 Unity[85225:6515039] Metal devices available: 2
+2021-06-06 17:22:48.055 Unity[85225:6515039] 0: AMD Radeon Pro 555X (high power)
+2021-06-06 17:22:48.055 Unity[85225:6515039] 1: Intel(R) UHD Graphics 630 (low power)
+2021-06-06 17:22:48.055 Unity[85225:6515039] Using device AMD Radeon Pro 555X (high power)
 Initializing Metal device caps: AMD Radeon Pro 555X
 Initialize mono
 Mono path[0] = '/Applications/2020.3.11f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/2020.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/2020.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56225
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/2020.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000464 seconds.
+Registered in 0.000457 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 43.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 36.08 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.422 seconds
+- Completed reload, in  1.282 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001986 seconds.
+Registered in 0.001899 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.228 seconds
+- Completed reload, in  1.200 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/2020.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1941 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 157.5 MB.
 System memory in use after: 157.6 MB.
 
 Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 2357.
-Total: 4.627817 ms (FindLiveObjects: 0.183175 ms CreateObjectMapping: 0.061290 ms MarkObjects: 4.321547 ms  DeleteObjects: 0.061167 ms)
+Total: 4.938857 ms (FindLiveObjects: 0.178891 ms CreateObjectMapping: 0.061717 ms MarkObjects: 4.625020 ms  DeleteObjects: 0.072624 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/C&C_Pack/Goblin_rouge/Goblin_rouge_r.prefab
-  artifactKey: Guid(f8e5b2f39b57ccf45ae8321cac39d04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/C&C_Pack/Goblin_rouge/Goblin_rouge_r.prefab using Guid(f8e5b2f39b57ccf45ae8321cac39d04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973c0601db803dd0956af83cb2218fb6') in 1.123007 seconds
-  Import took 1.126984 seconds .
+  path: Assets/prefab/FirePoint.prefab
+  artifactKey: Guid(457617eded0ae47b1a042b5da5dc32eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/FirePoint.prefab using Guid(457617eded0ae47b1a042b5da5dc32eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc832ddb7aca6a61c9f0d474c165d74') in 0.763825 seconds
+  Import took 0.766661 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/C&C_Pack/Goblin_rouge/Goblin_rouge_b.prefab
-  artifactKey: Guid(c1d92bdd55f8c154c957dcd4f7cfe669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/C&C_Pack/Goblin_rouge/Goblin_rouge_b.prefab using Guid(c1d92bdd55f8c154c957dcd4f7cfe669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79682eb168c2ad314520bdebb204e62f') in 0.005775 seconds
-  Import took 0.010277 seconds .
+  Time since last request: 0.000191 seconds.
+  path: Assets/prefab/RoundTower_High 2 Variant.prefab
+  artifactKey: Guid(08ad64743addd4961abedbc8d1921b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/RoundTower_High 2 Variant.prefab using Guid(08ad64743addd4961abedbc8d1921b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47486dd8c9efe8238763f3db0674041d') in 0.062527 seconds
+  Import took 0.065306 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/C&C_Pack/Goblin_rouge/Goblin_rouge_o.prefab
-  artifactKey: Guid(00a11f3eb5ba2aa4a9fe95591be93e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/C&C_Pack/Goblin_rouge/Goblin_rouge_o.prefab using Guid(00a11f3eb5ba2aa4a9fe95591be93e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533c0736001735ff5d0f753c0d5e0dd5') in 0.004712 seconds
-  Import took 0.008839 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.137593 seconds.
-  path: Assets/BulletMaterial.mat
-  artifactKey: Guid(ab55474cc4bcd754b82b71cfe648e4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BulletMaterial.mat using Guid(ab55474cc4bcd754b82b71cfe648e4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c411a3af2f951097576561b1eb40dd0') in 0.586168 seconds
-  Import took 0.589264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/MeshFilterJEsusahah.preset
-  artifactKey: Guid(7535c1e58a3834bc68c5a909609226a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshFilterJEsusahah.preset using Guid(7535c1e58a3834bc68c5a909609226a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccdd3964e47152c3c4759f856ec004e9') in 0.163520 seconds
-  Import took 0.166308 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/MissileLauncherIcon_PSD.psd
-  artifactKey: Guid(5b1efe1d36ef84ebabe0f1c6eebaebbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MissileLauncherIcon_PSD.psd using Guid(5b1efe1d36ef84ebabe0f1c6eebaebbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb48f3fc1f359345d1dabed385c4b226') in 1.049624 seconds
-  Import took 1.052674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.082272 seconds.
-  path: Assets/ground.mat
-  artifactKey: Guid(d830a420ebb908c4e99f1280a1ffcfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ground.mat using Guid(d830a420ebb908c4e99f1280a1ffcfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46047e6299ff0ed1daa6fc02f896350') in 0.009901 seconds
-  Import took 0.013908 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/LaserBeamerIcon_PSD.psd
-  artifactKey: Guid(7e27c2433babc496b853dde341060149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LaserBeamerIcon_PSD.psd using Guid(7e27c2433babc496b853dde341060149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1be8680d6bf5bcd6c078ce4744644d') in 0.011498 seconds
-  Import took 0.015872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/MissileLauncherIcon.png
-  artifactKey: Guid(f9207b8a88e204e25a9d8a338b57d41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MissileLauncherIcon.png using Guid(f9207b8a88e204e25a9d8a338b57d41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0cd16b454924635a0f07f26077ce24') in 0.975503 seconds
-  Import took 0.978313 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001873 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.124 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1933 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 182.3 MB.
-System memory in use after: 182.4 MB.
-
-Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2402.
-Total: 5.438242 ms (FindLiveObjects: 0.224382 ms CreateObjectMapping: 0.073389 ms MarkObjects: 5.113519 ms  DeleteObjects: 0.025894 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.034538 seconds.
-  path: Assets/road.mat
-  artifactKey: Guid(6893590574abf4846bde9a41cff16237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/road.mat using Guid(6893590574abf4846bde9a41cff16237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed0fb9915011a06211a65608dc32cec') in 0.120363 seconds
-  Import took 0.123166 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/MeshFilterFaraAcoperis....preset
-  artifactKey: Guid(ab3d90032bf9c4d908a78dff810b226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshFilterFaraAcoperis....preset using Guid(ab3d90032bf9c4d908a78dff810b226f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ac9f1991fbdefa95bc1459659f1bd2') in 0.001780 seconds
-  Import took 0.003802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/tower1.png
-  artifactKey: Guid(6c3759fa3dcf549f4938f94c5b3ee02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tower1.png using Guid(6c3759fa3dcf549f4938f94c5b3ee02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f110a8a52166f7ddee411d4cea5eb8') in 0.049821 seconds
-  Import took 0.052306 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/StandardTurretIcon_PSD.psd
-  artifactKey: Guid(1212c4bd744804524ac43ba69ea2c006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StandardTurretIcon_PSD.psd using Guid(1212c4bd744804524ac43ba69ea2c006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9e719ebd0fb1f34235301302b7655b') in 0.007886 seconds
-  Import took 0.010950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Turret with panels.fbx
-  artifactKey: Guid(3b37a46ba6fbe4c00a2d0b825d477ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Turret with panels.fbx using Guid(3b37a46ba6fbe4c00a2d0b825d477ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a63040f470cdcbcc8aa5487c4b1c87') in 0.295891 seconds
-  Import took 0.299012 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/RoundTowerMarial -D.preset
-  artifactKey: Guid(e7d5e570f70124d54b844ffa49aa8465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoundTowerMarial -D.preset using Guid(e7d5e570f70124d54b844ffa49aa8465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbf31958dc65e3325d5c1e215a1a90d') in 0.004103 seconds
-  Import took 0.006654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/MeshFilterTower.preset
-  artifactKey: Guid(f63801c07f9c241929af51b9c5a48354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshFilterTower.preset using Guid(f63801c07f9c241929af51b9c5a48354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11847e2ce243fa3c7bf123c95ad7d448') in 0.005345 seconds
-  Import took 0.009346 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/LaserBeamerIcon.png
-  artifactKey: Guid(c96b2299fc08d481fb4696adb2314661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LaserBeamerIcon.png using Guid(c96b2299fc08d481fb4696adb2314661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b107796a3a3296a70163ecd13c53258a') in 0.011959 seconds
-  Import took 0.015008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/StandardTurretIcon.png
-  artifactKey: Guid(04cf5cf875bf244ada1a781d509c6171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StandardTurretIcon.png using Guid(04cf5cf875bf244ada1a781d509c6171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8372adda36327274ec229506066fc1d4') in 0.010244 seconds
-  Import took 0.014112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.044331 seconds.
-  path: Assets/StandardTurretIcon.png
-  artifactKey: Guid(04cf5cf875bf244ada1a781d509c6171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StandardTurretIcon.png using Guid(04cf5cf875bf244ada1a781d509c6171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8372adda36327274ec229506066fc1d4') in 0.015053 seconds
-  Import took 0.019124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.442304 seconds.
-  path: Assets/GruffysAnimatedButterfly/butterfly2.prefab
-  artifactKey: Guid(a746812916eafa848a7e0dea876337da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GruffysAnimatedButterfly/butterfly2.prefab using Guid(a746812916eafa848a7e0dea876337da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9178ee92082363ad8d824918cdb631e6') in 0.039650 seconds
-  Import took 0.043503 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004048 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.080 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1934 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 187.2 MB.
-System memory in use after: 187.3 MB.
-
-Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2409.
-Total: 4.158770 ms (FindLiveObjects: 0.153237 ms CreateObjectMapping: 0.052871 ms MarkObjects: 3.934180 ms  DeleteObjects: 0.017887 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 62.678509 seconds.
-  path: Assets/C&C_Pack/Goblin_rouge/Goblin_rouge.fbx
-  artifactKey: Guid(741f73214c8e59045b42ebac4be91444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/C&C_Pack/Goblin_rouge/Goblin_rouge.fbx using Guid(741f73214c8e59045b42ebac4be91444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2078fafb625412191acceb1d8199a3d') in 0.179033 seconds
-  Import took 0.183242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 122.327954 seconds.
-  path: Assets/prefab/Bullet.prefab
-  artifactKey: Guid(c640e92b1914e7b4484a419e389864c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefab/Bullet.prefab using Guid(c640e92b1914e7b4484a419e389864c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df17ec902f08d853ea1929d50abc6c2') in 0.044907 seconds
-  Import took 0.047937 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/prefab/Node.prefab
-  artifactKey: Guid(4546624fb8f2acb498bab10234c2ddcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefab/Node.prefab using Guid(4546624fb8f2acb498bab10234c2ddcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d3b95a3a49af6db74266ec105daa9f') in 0.013689 seconds
-  Import took 0.016870 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/prefab/Enemy.prefab
-  artifactKey: Guid(b15a5128ff7584b5ead692e26a81bd2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefab/Enemy.prefab using Guid(b15a5128ff7584b5ead692e26a81bd2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f19711ae618c3bf90bb47c790c15ea4') in 0.013393 seconds
-  Import took 0.017746 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000443 seconds.
-  path: Assets/prefab/mushroom_Turret1.prefab
-  artifactKey: Guid(64375190e885d854d901d2f5aba9b838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefab/mushroom_Turret1.prefab using Guid(64375190e885d854d901d2f5aba9b838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c1e8ee7057fd29b57073efd7dc1cc1') in 0.006059 seconds
-  Import took 0.009601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/prefab/butterfly2.prefab
-  artifactKey: Guid(f2547996441937a40b23264ba8efac4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefab/butterfly2.prefab using Guid(f2547996441937a40b23264ba8efac4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539b955476d3ee5ba7ea003a89735c53') in 0.024582 seconds
-  Import took 0.027572 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/prefab/mushroom_Turret2.prefab
-  artifactKey: Guid(816899e6fbd30534a9651e0c522fc8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefab/mushroom_Turret2.prefab using Guid(816899e6fbd30534a9651e0c522fc8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d318c2fb5094e59d695513e4b56a31e') in 0.005715 seconds
-  Import took 0.008823 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
+  Time since last request: 0.000200 seconds.
   path: Assets/prefab/RoundTower_High 2.FBX
-  artifactKey: Guid(e1f8f6a595b56924ebbbfc5cff1808b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefab/RoundTower_High 2.FBX using Guid(e1f8f6a595b56924ebbbfc5cff1808b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def3a6df084a180c9edd94de07a02637') in 0.284321 seconds
-  Import took 0.287513 seconds .
+  artifactKey: Guid(0201b30acae724fd8b25892f5b8e2930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/RoundTower_High 2.FBX using Guid(0201b30acae724fd8b25892f5b8e2930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5843ebb76b7b7fcc9e818440901142') in 0.335268 seconds
+  Import took 0.337778 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/prefab/mushroom_Turret2.prefab
-  artifactKey: Guid(816899e6fbd30534a9651e0c522fc8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefab/mushroom_Turret2.prefab using Guid(816899e6fbd30534a9651e0c522fc8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d318c2fb5094e59d695513e4b56a31e') in 0.004090 seconds
-  Import took 0.007600 seconds .
+  Time since last request: 0.523641 seconds.
+  path: Assets/prefab/FirePoint.prefab
+  artifactKey: Guid(457617eded0ae47b1a042b5da5dc32eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/FirePoint.prefab using Guid(457617eded0ae47b1a042b5da5dc32eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc832ddb7aca6a61c9f0d474c165d74') in 0.004577 seconds
+  Import took 0.007504 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002312 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.367 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1934 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 192.1 MB.
-System memory in use after: 192.3 MB.
-
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2415.
-Total: 4.605126 ms (FindLiveObjects: 0.178574 ms CreateObjectMapping: 0.060847 ms MarkObjects: 4.339670 ms  DeleteObjects: 0.025340 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002127 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.108 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1934 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 192.4 MB.
-System memory in use after: 192.5 MB.
-
-Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2418.
-Total: 4.425616 ms (FindLiveObjects: 0.165715 ms CreateObjectMapping: 0.054222 ms MarkObjects: 4.183905 ms  DeleteObjects: 0.021161 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002355 seconds.
+Registered in 0.004355 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.165 seconds
+- Completed reload, in  1.140 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1934 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 192.6 MB.
-System memory in use after: 192.7 MB.
+System memory in use before: 169.8 MB.
+System memory in use after: 169.9 MB.
 
-Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2421.
-Total: 4.616865 ms (FindLiveObjects: 0.184584 ms CreateObjectMapping: 0.069921 ms MarkObjects: 4.338626 ms  DeleteObjects: 0.022438 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 563.883715 seconds.
-  path: Assets/C&C_Pack/Goblin_rouge/textures/Goblin_ro_blu.png
-  artifactKey: Guid(65ce8e404c7f72b48a2ced58e510f3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/C&C_Pack/Goblin_rouge/textures/Goblin_ro_blu.png using Guid(65ce8e404c7f72b48a2ced58e510f3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dbf17eca78c1ab3d367a11aa9872e56') in 0.041471 seconds
-  Import took 0.044652 seconds .
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2371.
+Total: 4.324143 ms (FindLiveObjects: 0.156578 ms CreateObjectMapping: 0.055212 ms MarkObjects: 4.092659 ms  DeleteObjects: 0.018950 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/prefab/Materials/Goblin_ro_skin_b.mat
-  artifactKey: Guid(9a36f4f16118f4a6bbfb680cfefebe24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefab/Materials/Goblin_ro_skin_b.mat using Guid(9a36f4f16118f4a6bbfb680cfefebe24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc79ab3ce629ec67f26ef0c3dcf204d7') in 0.037713 seconds
-  Import took 0.040591 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002300 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.158 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.1 MB.
+System memory in use after: 170.2 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/prefab/Materials/Goblin_Rouge.mat
-  artifactKey: Guid(6116f90dc55a34ca28da62fe1f4765d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefab/Materials/Goblin_Rouge.mat using Guid(6116f90dc55a34ca28da62fe1f4765d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa83bd75898b0b7cf355399a1aeb108d') in 0.008077 seconds
-  Import took 0.010901 seconds .
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2374.
+Total: 4.785995 ms (FindLiveObjects: 0.202359 ms CreateObjectMapping: 0.075550 ms MarkObjects: 4.482729 ms  DeleteObjects: 0.024473 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/C&C_Pack/Goblin_rouge/Materials/Goblin_ro_skin_b.mat
-  artifactKey: Guid(bd38ff3c0d8ee4a43a058333dea73317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/C&C_Pack/Goblin_rouge/Materials/Goblin_ro_skin_b.mat using Guid(bd38ff3c0d8ee4a43a058333dea73317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9947b8dde911e8b7ac997044ddaeb936') in 0.025829 seconds
-  Import took 0.028442 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/C&C_Pack/Goblin_rouge/textures/Goblin_ro_red.png
-  artifactKey: Guid(14838969c17d1314da3edcca80c7b7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/C&C_Pack/Goblin_rouge/textures/Goblin_ro_red.png using Guid(14838969c17d1314da3edcca80c7b7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3535908cc156316584aa7a29b4be72c') in 0.009605 seconds
-  Import took 0.012116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/C&C_Pack/Goblin_rouge/Materials/Goblin_ro_skin_r.mat
-  artifactKey: Guid(aa7b39a7b5bd0394b9588bd39905b5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/C&C_Pack/Goblin_rouge/Materials/Goblin_ro_skin_r.mat using Guid(aa7b39a7b5bd0394b9588bd39905b5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28392360c3579ff22812201027b80b95') in 0.008537 seconds
-  Import took 0.011144 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/C&C_Pack/Goblin_rouge/textures/Goblin_ro_orig.png
-  artifactKey: Guid(4a080c5ddde2b044bb072e626616ff10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/C&C_Pack/Goblin_rouge/textures/Goblin_ro_orig.png using Guid(4a080c5ddde2b044bb072e626616ff10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0ab6b3bf00d40ae5a19635a4f3a189') in 0.008936 seconds
-  Import took 0.011455 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/C&C_Pack/Goblin_rouge/textures/Goblin_Rouge512.png
-  artifactKey: Guid(3697934ac1e012b4c9223c096a612576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/C&C_Pack/Goblin_rouge/textures/Goblin_Rouge512.png using Guid(3697934ac1e012b4c9223c096a612576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc961d514747add7d2dbcb026f339120') in 0.008984 seconds
-  Import took 0.011618 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/C&C_Pack/Goblin_rouge/textures/Goblin_ro_red.png
-  artifactKey: Guid(14838969c17d1314da3edcca80c7b7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/C&C_Pack/Goblin_rouge/textures/Goblin_ro_red.png using Guid(14838969c17d1314da3edcca80c7b7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3535908cc156316584aa7a29b4be72c') in 0.007344 seconds
-  Import took 0.009908 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/C&C_Pack/Goblin_rouge/Materials/Goblin_ro_skin_o.mat
-  artifactKey: Guid(931deaa9eaf946441b3051b1667e43e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/C&C_Pack/Goblin_rouge/Materials/Goblin_ro_skin_o.mat using Guid(931deaa9eaf946441b3051b1667e43e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4cfac85c9a80a670066a8ba8c58e04f') in 0.009476 seconds
-  Import took 0.012289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/C&C_Pack/Goblin_rouge/Materials/Goblin_Rouge.mat
-  artifactKey: Guid(ba9ed8f46aa841c46a5cabb9f8df427f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/C&C_Pack/Goblin_rouge/Materials/Goblin_Rouge.mat using Guid(ba9ed8f46aa841c46a5cabb9f8df427f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2dd4039beeb5d98a31aa488b96be4a') in 0.008155 seconds
-  Import took 0.010938 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
