@@ -1,0 +1,2 @@
+/Users/alessandro/Documents/Sistemte Interactive/tower-defense-unity-game-master/Alessandro Tower Defense Game/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+/Users/alessandro/Documents/Sistemte Interactive/tower-defense-unity-game-master/Alessandro Tower Defense Game/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
